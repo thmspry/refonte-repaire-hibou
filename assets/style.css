@@ -1,0 +1,16 @@
+nav {
+    background-color: #26a69a;
+    height: 45px;
+    line-height: 45px;
+}
+
+nav .brand-logo {
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+div #page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
