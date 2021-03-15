@@ -1,0 +1,3 @@
+#Le repaire du Hibou - Refont Graphique
+
+Ce projet s’inscrit dans le cadre du cours de Culture et Communication du semestre 4, encadré par Albéric Chemana. Il a pour but la refonte graphique d’un site web déjà existant dont le design était dépassé, afin de le remettre au goût du jour. Pour cela nous avons étudié certaines règles de design pour l’UX et l’UI, afin de créer un site le plus simple et accessible.
