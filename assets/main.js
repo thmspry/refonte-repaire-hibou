@@ -1,10 +1,20 @@
 "use strict"
 
 document.addEventListener('DOMContentLoaded', function() {
-    const elems = document.querySelectorAll('.parallax');
-    const options = {};
-    const instances = M.Parallax.init(elems, options);
+    // Initialisation de la Paralax de Materialize
+    const paralax = document.querySelectorAll('.parallax');
+    const optionsParalax = {};
+    const instanceParalax = M.Parallax.init(paralax, optionsParalax);
 
-    var elem = document.querySelectorAll('.dropdown-trigger');
-    var instance = M.Dropdown.init(elem, options);
+    // Initialisation du Dropdown-trigger de Materialize
+    const dropdown = document.querySelectorAll('.dropdown-trigger');
+    const optionsDropdown = {};
+    const instanceDropdown = M.Dropdown.init(dropdown, optionsDropdown);
+
+    const caroussel = document.querySelectorAll('.carousel');
+    const optionsCaroussel = {
+        duration : 200,
+        numVisible : 5,
+    };
+    const instanceCaroussel = M.Carousel.init(caroussel, optionsCaroussel);
 });
