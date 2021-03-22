@@ -2,9 +2,14 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const elems = document.querySelectorAll('.parallax');
-    const options = {};
+    let options = {};
     const instances = M.Parallax.init(elems, options);
 
-    var elem = document.querySelectorAll('.dropdown-trigger');
-    var instance = M.Dropdown.init(elem, options);
+    const elem = document.querySelectorAll('.dropdown-trigger');
+    const instance = M.Dropdown.init(elem, options);
+
+    const element = document.querySelectorAll('.sidenav');
+    options = {}
+    const instancess = M.Sidenav.init(elems, options);
+
 });
