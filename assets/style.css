@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    background-color: #F1F3ED;
+}
 
 nav {
-    background-color: #8cc541;
+    background-color: #97BA69;
     height: 60px;
     line-height: 60px;
 }
@@ -8,7 +13,7 @@ nav {
 nav .brand-logo {
     font-size: 1.5rem;
     padding-left: 20px;
-    color: #000000 ;
+    color: #FFF ;
 }
 
 div #page-container {
@@ -24,8 +29,10 @@ a.brand-logo {
 }
 
 nav ul a {
-    color: #000000;
-    font-size: 1em;
+    color: #FFF;
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
 }
 
 #logo {
@@ -44,6 +51,7 @@ div #paralax-section {
 
 div #paralax-section2 {
     padding: 1.3em;
+    background-color: #FFFFFF;
 }
 
 .subject {
@@ -114,5 +122,59 @@ div #paralax-section2 {
 .page-footer {
     padding-top: 20px;
     color: #000000;
-    background-color: #8f5739;
+    background-color: #c3a76d;
+}
+
+.title-home {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #97BA69;
+}
+
+blockquote h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+blockquote p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    padding-right: 30px;
+}
+
+.video-legende {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.title-card {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.card-text-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.0em;
+    font-style: italic;
+}
+
+.modal-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
 }

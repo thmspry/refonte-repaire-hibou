@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialisation du Zoom sur image  de Materialize
     const materialboxed = document.querySelectorAll('.materialboxed');
-    const optionsImage = {}
+    const optionsImage = {};
     const instancesMaterialboxed = M.Materialbox.init(materialboxed, optionsImage);
 
     // Initialisation du Scrollspy de Materialize
@@ -37,4 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
         activeClass : 'active'
     }
     const instanceScrollspy = M.ScrollSpy.init(Scrollspy, optionsScrollspy);
+
+
+    const modal = document.querySelectorAll('.modal');
+    const optionsModals = {};
+    const instances = M.Modal.init(modal, optionsModals);
+
+
 });
