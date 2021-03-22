@@ -26,15 +26,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialisation du Zoom sur image  de Materialize
     const materialboxed = document.querySelectorAll('.materialboxed');
-    const optionsImage = {
-        throttle : 100,
-        scrollOffset : 400,
-        activeClass : 'active'
-    }
+    const optionsImage = {}
     const instancesMaterialboxed = M.Materialbox.init(materialboxed, optionsImage);
 
     // Initialisation du Scrollspy de Materialize
     const Scrollspy = document.querySelectorAll('.scrollspy');
-    const optionsScrollspy = {}
+    const optionsScrollspy = {
+        throttle : 100,
+        scrollOffset : 400,
+        activeClass : 'active'
+    }
     const instanceScrollspy = M.ScrollSpy.init(Scrollspy, optionsScrollspy);
 });
