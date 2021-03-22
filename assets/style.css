@@ -1,6 +1,6 @@
 
 nav {
-    background-color: #F5F0D0;
+    background-color: #8cc541;
     height: 60px;
     line-height: 60px;
 }
@@ -12,6 +12,12 @@ nav .brand-logo {
 }
 
 div #page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.brand-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,10 +39,52 @@ div #paralax {
 
 div #paralax-section {
     padding: 1.3em;
+    background-color: #FFFFFF
 }
 
 div #paralax-section2 {
     padding: 1.3em;
+}
+
+.subject {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.table-of-contents a.active {
+    border-left: 2px solid #8f5739;
+}
+
+.table-of-contents a:hover {
+    border-left: 1px solid #8f5739
+}
+
+.carousel .carousel-item {
+    width: 300px;
+}
+
+.card {
+    background-color: #F5F0D0;
+}
+
+#hebergement .card {
+    width: 30%;
+}
+
+.card .card-action {
+    background-color: #c3a76d;
+
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: white;
+}
+
+#cards-heber {
+    display: flex;
+    justify-content: space-around;
 }
 
 @media only screen and (min-width: 601px) {
@@ -49,10 +97,22 @@ div #paralax-section2 {
     div #sidebar {
         display: none;
     }
+
+    #cards-heber {
+        flex-flow: column;
+    }
+    #hebergement .card  {
+        width: 100%;
+    }
+
+    .subject {
+        flex-flow: column;
+        align-items: center;
+    }
 }
 
 .page-footer {
     padding-top: 20px;
     color: #000000;
-    background-color: #F5F0D0;
+    background-color: #8f5739;
 }
