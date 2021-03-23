@@ -5,6 +5,7 @@
     <title>Le repaire du hibou | Le domaine</title>
     <link rel="icon" type="image/png" href="../assets/image/icon/logo-hiboux.png" />
     <link href="../assets/vendor/materializeDesign/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../assets/style.css" rel="stylesheet">
 </head>
 <body>
@@ -202,7 +203,7 @@
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Informations</h5>
-                <ul>
+                <ul class="white-text">
                     <li><a class="grey-text text-lighten-3" href="#!">Nous contacter</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Nous retrouver</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Livre d'or</a></li>
@@ -216,6 +217,74 @@
         </div>
     </div>
 </footer>
+<div id="contacter" class="modal">
+    <div class="modal-content">
+        <div class="row">
+            <div class="section">
+                <div class="col s12 center-align">
+                    <h5 class="header">Nous contacter</h5>
+                    <div class="divider"></div>
+                </div>
+                <div class="col s12">
+                    <p class="modal-text">
+                        Pour information votre numéro de téléphone ne sera divulgé et donc non utilisé pour des prospections commerciales
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="sujet" type="text" class="validate">
+                        <label for="sujet">Sujet du message</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="nom" type="text" class="validate">
+                        <label for="nom">Votre Nom</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="mail" type="email" class="validate">
+                        <label for="mail">e-mail</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="tel" type="text" class="validate">
+                        <label for="tel">Téléphone (portable de préférence)</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s4">
+                        <input id="rue" type="text" class="validate">
+                        <label for="rue">Adresse (numéro et rue)</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="codePostal" type="text" class="validate">
+                        <label for="codePostal">Code Postale</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="pays" type="text" class="validate">
+                        <label for="pays">Pays</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="textarea1">Votre message</label>
+                    </div>
+                    <div class="input-field col s6 center-align">
+                        <button class="btn waves-effect waves-light" type="submit">Submit
+                            <i class="material-icons right">send</i> </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+    </div>
+</div>
 <script src="../assets/vendor/materializeDesign/js/materialize.min.js"></script>
 <script src="../assets/main.js"></script>
 

@@ -5,6 +5,7 @@
     <title>Le repaire du hibou | Disponibilités</title>
     <link rel="icon" type="image/png" href="../assets/image/icon/logo-hiboux.png" />
     <link href="../assets/vendor/materializeDesign/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../assets/style.css" rel="stylesheet">
 </head>
 <body>
@@ -33,34 +34,13 @@
     <li><a href="pages/disponibilites.html">Disponilités</a></li>
 </ul>
 <div class="row">
-
     <div class="col s12 l10 back-white">
         <div class="col s12 center-align">
             <h3 class="header title-home">Les disponibilités</h3>
             <div class="divider"></div>
         </div>
 
-        <div class="col s12 m9 l10">
-            <div id="reservation" class="col s12 section scrollspy">
-                <h3>Les Réservation</h3>
-                <p>Disponibilité et réservation cabane de l'écureuil
-                    Surface : 25.00 m²
-                    Capacité max. : 4
-                    Pour réserver voir ci-dessous les dates disponibles et completer le formulaire en bas de cette page.
-                </p>
-                <p>Disponibilité et réservation de la cabane du héron
-                    Surface : 33.00 m²
-                    Capacité max. : 6
-                    Pour réserver voir ci-dessous les dates disponibles et completer le formulaire en bas de cette page.
-                </p>
-                <p>Disponibilité et réservation cabane du hibou
-                    Surface : 17.00 m²
-                    Capacité max. : 2
-                    Pour réserver voir ci-dessous les dates disponibles et completer le formulaire en bas de cette page.</p>
-            </div>
-        </div>
-
-        <div class="col s12 m9 l10">
+        <div class="col s12">
             <div id="tarif" class="col s12 section">
                 <h3>Les Tarifs 2021</h3>
                 <div class="row">
@@ -72,47 +52,65 @@
                         </p>
                         <p>Haute saison - 170€/nuit
                             à partir de 3 nuits : 160€/nuit</p>
+                        <p>Surface : 17 m²</p>
                     </div>
                     <div class="col s4">
-                        <img src="../assets/image/icon/squirrel.png" alt="hibou">
+                        <img src="../assets/image/icon/squirrel.png" alt="écureuil">
                         <p class="title-cabane">La cabane de l'écureuil - 4 personnes</p>
                         <p>Basse saison - 175€/nuit
                             à partir de 3 nuits : 165€/nuit </p>
                         <p>Haute saison - 185€/nuit
                             à partir de 3 nuits : 175€/nuit </p>
+                        <p>Surface : 25 m²</p>
                     </div>
                     <div class="col s4">
-                        <img src="../assets/image/icon/heron.jpg" alt="hibou">
+                        <img src="../assets/image/icon/heron.jpg" alt="héron">
                         <p class="title-cabane">La cabane du héron - 6 personnes</p>
                         <p>Basse saison - 190€/nuit
                             à partir de 3 nuits : 180€/nuit </p>
                         <p>Haute saison - 200€/nuit
                             à partir de 3 nuits : 190€/nuit </p>
+                        <p>Surface : 33 m²<p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="">
-                        <h3>Options</h3>
-                        <p>Petits déjeuners gourmands servis dans le panier :
-                        12,50€ par adulte - 8€ par enfant
+            </div>
+        </div>
 
-                        Champagne : 30€ la bouteille
 
-                        Vin : 10€ la bouteille
+        <div class="col s12 m9 l10">
+            <div id="options" class="col s12 section">
+                <h3>Options</h3>
+                <blockquote>
+                    <p>Petits déjeuners gourmands servis dans le panier : 12,50€ par adulte - 8€ par enfant</p>
+                </blockquote>
+                <blockquote>
+                    <p>Champagne : 30€ la bouteille
+                     | Vin : 10€ la bouteille</p>
+                </blockquote>
+                <blockquote>
+                    <p>Option ménage de fin de séjour :
+                    court séjour (1 à 2 nuits) 40€
+                        long séjour (3 nuits et plus) 50€</p>
 
-                        Option ménage de fin de séjour :
-                        court séjour (1 à 2 nuits) 40€
-                        long séjour (3 nuits et plus) 50€
+                </blockquote>
+                <blockquote>
+                    <p>Repas raclette carnée ou végétarienne  :
+                    30€ par adulte voir le détail en cliquant ici
+                        20€ enfant de moins de 12 ans</p>
+                </blockquote>
+                <blockquote>
+                    <p>Repas grillades carnée ou végétarienne :
+                    30€ par adulte
+                    20€ par enfant  voir le détail en cliquant ici</p>
+                </blockquote>
+            </div>
+        </div>
 
-                        Repas raclette carnée ou végétarienne  :
-                        30€ par adulte voir le détail en cliquant ici
-                        20€ enfant de moins de 12 ans
-
-                        Repas grillades carnée ou végétarienne :
-                        30€ par adulte
-                        20€ par enfant  voir le détail en cliquant ici</p>
-                    </div>
-                </div>
+        <div class="col s12 m9 l10">
+            <div id="infos-complementaires" class="col s12 section">
+                <h3>Informations complémentaires</h3>
+                <p>Les draps et les serviettes de toilette sont fournis.
+                <p>Les chiens sont acceptés</p>
             </div>
         </div>
     </div>
@@ -206,7 +204,7 @@
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Informations</h5>
-                <ul>
+                <ul class="white-text">
                     <li><a class="grey-text text-lighten-3" href="#!">Nous contacter</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Nous retrouver</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Livre d'or</a></li>
