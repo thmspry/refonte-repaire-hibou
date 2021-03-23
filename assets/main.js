@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const caroussel = document.querySelectorAll('.carousel');
     const optionsCaroussel = {
         duration : 200,
-        numVisible : 5,
+        numVisible : 4,
+        indicators : true
     };
     const instanceCaroussel = M.Carousel.init(caroussel, optionsCaroussel);
 

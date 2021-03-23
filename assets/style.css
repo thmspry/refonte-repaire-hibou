@@ -16,6 +16,10 @@ nav .brand-logo {
     color: #FFF ;
 }
 
+.back-white {
+    background-color:white;
+}
+
 div #page-container {
     display: flex;
     justify-content: center;
@@ -58,7 +62,7 @@ div #paralax-section2 {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .table-of-contents a.active {
@@ -69,8 +73,12 @@ div #paralax-section2 {
     border-left: 1px solid #8f5739
 }
 
+.domaine-title {
+    margin-top: 7%;
+}
+
 .carousel .carousel-item {
-    width: 300px;
+    width: 375px;
 }
 
 .card {
