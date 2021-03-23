@@ -109,36 +109,6 @@ div #paralax-section2 {
     }
 }
 
-@media only screen and (max-width: 992px) {
-    div #sidebar {
-        display: none;
-    }
-
-    #cards-heber {
-        flex-flow: column;
-    }
-    #hebergement .card  {
-        width: 100%;
-    }
-
-    .subject {
-        flex-flow: column;
-        align-items: center;
-    }
-
-    #tarif .row {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-    }
-
-    #tarif .row div {
-        margin-left: 0;
-        width: 100%;
-    }
-}
-
 .page-footer {
     padding-top: 20px;
     color: #000000;
@@ -235,4 +205,68 @@ blockquote p {
 
 #reservation blockquote img {
     width: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    div #sidebar {
+        display: none;
+    }
+    .row .col.s6 {
+        width: 100%;
+    }
+    #cards-heber {
+        flex-flow: column;
+    }
+    #hebergement .card  {
+        width: 100%;
+    }
+
+    .subject {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    #tarif .row {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+    }
+
+    #tarif .row div {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    nav .sidenav-trigger i {
+        font-size: 40px;
+    }
+    nav .brand-logo {
+        font-size: 3vw;
+    }
+    blockquote p {
+        font-size: 2em;
+    }
+    blockquote h5 {
+        font-size: 2.4em;
+    }
+    .video-legende {
+        font-size: 2em;
+    }
+    div h5 {
+        font-size: 2.4em;
+    }
+    .white-text > li {
+        font-size: 1.4em;
+    }
+    .row .col.offset-s2 {
+        margin-left: 0;
+        width: 100%;
+    }
+    .card .card-content .card-title {
+        font-size: 2em;
+    }
+    .card .card-content p {
+        font-size: 1.2em;
+    }
 }
