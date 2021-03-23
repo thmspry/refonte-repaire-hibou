@@ -16,6 +16,17 @@ nav .brand-logo {
     color: #FFF ;
 }
 
+#mobile-demo {
+    background-color: #97BA69;
+}
+
+#mobile-demo li a {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
 .back-white {
     background-color:white;
 }
