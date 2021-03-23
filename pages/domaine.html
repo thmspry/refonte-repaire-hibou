@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Le domaine</title>
+    <title>Le repaire du hibou | Le domaine</title>
     <link rel="icon" type="image/png" href="../assets/image/icon/logo-hiboux.png" />
     <link href="../assets/vendor/materializeDesign/css/materialize.min.css" rel="stylesheet">
     <link href="../assets/style.css" rel="stylesheet">
@@ -27,12 +27,17 @@
         </div>
     </nav>
 </div>
-
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="./domaine.html">Le domaine</a></li>
+    <li><a href="./disponibilites.html">Disponilités</a></li>
+</ul>
 <div class="row">
-    <div class="col s12 l10">
+    <div class="col s12 l10 back-white">
         <div class="col s12 center-align">
-            <h3 class="header">Le domaine</h3>
+            <h3 class="header title-home domaine-title">Le domaine</h3>
+            <div class="divider"></div>
         </div>
+
         <div class="carousel">
             <a class="carousel-item"><img src="../assets/image/anes.png"></a>
             <a class="carousel-item"><img src="../assets/image/feuille_enneigee.png"></a>
@@ -41,12 +46,13 @@
             <a class="carousel-item"><img src="../assets/image/cabane_perchee.jpg"></a>
         </div>
 
-        <div class="col s12 m9 l10">
+        <div class="col s12">
             <div id="domaine" class="subject col s12 section scrollspy">
                 <div class="blabla">
-                    <h3>Le domaine du repaire du hibou</h3>
-                    <h3>Une ferme traditionnelle et son parc de 5 hectares</h3>
-                    <p class="grey-text text-darken-3 lighten-3">Ancienne habitation traditionnelle du pays de Retz entièrement rénovée ! C'est ici que nous vous accueillons. </p>
+                    <blockquote>
+                        <h5 class="header">Le domaine du repaire du hibou : Une ferme traditionnelle et son parc de 5 hectares</h5>
+                        <p class="grey-text text-darken-3 lighten-3">Ancienne habitation traditionnelle du pays de Retz entièrement rénovée ! C'est ici que nous vous accueillons. </p>
+                    </blockquote>
                 </div>
                 <img data-caption="Notre accueil RÉ-NO-VÉE" src="../assets/image/accueil.jpg" class="materialboxed"  alt="notre accueil">
 
@@ -54,7 +60,8 @@
 
             <div id="parc" class="subject col s12 section scrollspy">
                 <div class="blabla">
-                    <h3>Le parc et ses animaux</h3>
+                    <blockquote>
+                    <h5 class="header">Le parc et ses animaux</h5>
                     <p class="grey-text text-darken-3 lighten-3">Venez-vous ressourcer dans un espace naturel de plus de 5 hectares !
                         Promenez-vous à travers les chemins du parc, pour découvrir un environnement préservé ou les animaux sont rois. En ce sens, la pêche sera desormait interdite !
                         Vous pourrez croiser au detour d'une promenade nos chattes, Neko et Nobu qui ont trois ans et sont deux soeurs sauvées de l'abandon.
@@ -62,6 +69,7 @@
                         Enfin, Prunelle et Nestor sont deux ânes très coquins, ne soyez pas impressionnés par leur grande taille, ils sont, comme le dit la poésie : si doux !
                         De nombreux animaux sauvages trouvent refuge chez nous, des écureuils, lièvres, garennes, lapins, grenouilles…les plus chanceux pouvant apercevoir un chevreuil ou un sanglier. </p>
                     <p>La propriété étant refuge LPO, vous pourrez voir de nombreux oiseaux passant vivre des instants de poésie.</p>
+                    </blockquote>
                 </div>
                 <img data-caption="Les allées du parc" src="../assets/image/les_alles_du_parc.jpg" class="materialboxed"  alt="les allées du parc">
             </div>
@@ -102,48 +110,109 @@
             </div>
 
         </div>
-        <div class="col hide-on-small-only m3 l2">
-            <ul class="section table-of-contents">
-                <li><a href="#domaine">Le Domaine</a></li>
-                <li><a href="#parc">Le Parc</a></li>
-                <li><a href="#hebergement">Les Héberegements</a></li>
-            </ul>
+
+    </div>
+    <div class="col s0 l2" id="sidebar">
+        <div class="row" style="margin-top: 15px">
+            <div class="col s12">
+                <div class="card hoverable">
+                    <div class="card-content">
+                        <h6 class="truncate center-align title-card">Nous contacter</h6>
+                        <div class="divider"></div>
+                        <br>
+                        <span class="card-text"><b>Téléphone</b> : 06.66.08.66.69</span>
+                        <br>
+                        <br>
+                        <span class="card-text">
+                                Pour toute demande d'information, ou de bon cadeau contactez nous à l’aide du formulaire ci-dessous
+                                une réponse vous sera envoyée sous 24h.
+                            </span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#contacter" class="modal-trigger">Remplir formulaire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="card hoverable">
+                    <div class="card-content">
+                        <div class="row">
+                            <h6 class="truncate center-align title-card">Nous retrouver</h6>
+                            <div class="divider"></div>
+                            <br>
+                            <div class="col s6 center-align">
+                                <a class="btn-floating btn-large red darken-2 pulse" style="padding: 0" href="https://www.instagram.com/le_repaire_du_hibou/"><img src="../assets/image/icon/instagram.png" class="responsive-img"></a>
+                            </div>
+                            <div class="col s6 center-align">
+                                <a class="btn-floating btn-large blue darken-4 pulse" style="padding: 0" href="https://fr-fr.facebook.com/pages/category/Cottage/Le-repaire-du-hibou-619886641384287/"><img src="../assets/image/icon/facebook.png" class="responsive-img"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="card hoverable">
+                    <div class="card-content">
+                        <div class="row">
+                            <h6 class="truncate center-align title-card">Livre d'or</h6>
+                            <div class="divider"></div>
+                            <br>
+                            <span class="card-text-italic">Boisseau le 07/09/2020</span>
+                            <span class="card-text">Endroit calme et reposant très bon accueil</span>
+                            <br>
+                            <br>
+                            <div class="divider"></div>
+                            <br>
+                            <span class="card-text-italic">Famille Guyot le 16/08/2020</span>
+                            <span class="card-text">Endroit calme et reposant très bon accueil</span>
+                            <br>
+                            <br>
+                            <div class="divider"></div>
+                            <br>
+                            <span class="card-text-italic">Famille Gafsi Le 09/08/2020</span>
+                            <span class="card-text">Un endroit magique et un accueil formidable. Merci Pascal et Brigitte. C’était tellement agréable de pouvoir passer du temps dans la cabane du pêcheur au bord de l’étang. Elle est parfaite. On n’est pas encore parti de ce havre de tranquillité que déjà on a envie d’y revenir.</span>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Tout les messages</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="col s0 l2" id="sidebar" style="background-color: black">
-        <div class="row"></div>
     </div>
 </div>
 
 <footer class="page-footer">
     <div class="container">
         <div class="row">
-            <div class="col l6 s12">
-                <a class='dropdown-trigger' href='#' data-target='dropdown1'>Mentions légales</a>
-
-                <ul id='dropdown1' class='dropdown-content' style="width: 500px">
-                    <li><a>Ce site est édité par : SARL Le repaire du hibou</a></li>
-                    <li><a>Adresse : 1 le Breil 44680 SAINTE PAZANNE</a></li>
-                    <li><a>Capital social : 5000 euros</a></li>
-                    <li><a>Numéro d'immatriculation légal : N° Siret : 792 173 825 00011</a></li>
-                    <li><a>Directeur de la publication : Brigitte et Pascal LEONARD</a></li>
+            <div class="col s6">
+                <h5 class="white-text">Mentions Légales</h5>
+                <ul class="white-text">
+                    <li>Ce site est édité par : SARL Le repaire du hibou</li>
+                    <li>Adresse : 1 le Breil 44680 SAINTE PAZANNE</li>
+                    <li>Capital social : 5000 euros</li>
+                    <li>Numéro d'immatriculation légal : N° Siret : 792 173 825 00011</li>
+                    <li>Directeur de la publication : Brigitte et Pascal LEONARD</li>
                 </ul>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Informations</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Nous contacter</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Nous retrouver</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Livre d'or</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
-        <div class="container">
-            © 2021 Pas de Copyright
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        <div class="container center-align">
+            © 2021 Copyright Gru Antoine, Ordrenneau Matteo, Peray Thomas, Vernin Paul
         </div>
     </div>
 </footer>
