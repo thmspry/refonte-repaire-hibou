@@ -60,7 +60,7 @@
                         </blockquote>
                     </div>
                 </div>
-                <div class="col s12">
+                <div class="col s12 ">
                     <div class="section">
                         <blockquote>
                             <h5 class="header">Envie d'espace, de liberté.... la nature vous attend.</h5>
@@ -163,7 +163,7 @@
                                 <div class="divider"></div>
                                 <br>
                                 <span class="card-text-italic">Famille Guyot le 16/08/2020</span>
-                                <span class="card-text">Endroit calme et reposant très bon accueil</span>
+                                <span class="card-text">Nous avons passé un bon séjour dans ce cadre agréable et nature. Très belle réalisation et bon accueil. Merci</span>
                                 <br>
                                 <br>
                                 <div class="divider"></div>
@@ -173,7 +173,7 @@
                             </div>
                         </div>
                         <div class="card-action">
-                            <a href="#">Tout les messages</a>
+                            <a href="#livreOr" class="modal-trigger">Tout les messages</a>
                         </div>
                     </div>
                 </div>
@@ -198,9 +198,9 @@
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Informations</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Nous contacter</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Nous retrouver</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Livre d'or</a></li>
+                    <li><a class="grey-text text-lighten-3 modal-trigger" href="#contacter">Nous contacter</a></li>
+                    <li><a class="grey-text text-lighten-3 modal-trigger" href="#">Nous retrouver</a></li>
+                    <li><a class="grey-text text-lighten-3 modal-trigger" href="#livreOr">Livre d'or</a></li>
                 </ul>
             </div>
         </div>
@@ -212,15 +212,16 @@
     </div>
 </footer>
 
-<div id="contacter" class="modal">
+<div id="contacter" class="modal modal-fixed-footer">
     <div class="modal-content">
         <div class="row">
             <div class="section">
                 <div class="col s12 center-align">
-                    <h5 class="header">Nous contacter</h5>
+                    <h5 class="header modal-title">Nous contacter</h5>
                     <div class="divider"></div>
                 </div>
                 <div class="col s12">
+                    <br>
                     <p class="modal-text">
                         Pour information votre numéro de téléphone ne sera divulgé et donc non utilisé pour des prospections commerciales
                     </p>
@@ -230,47 +231,101 @@
         <div class="col s12">
             <form class="col s12">
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 l6">
                         <input id="sujet" type="text" class="validate">
                         <label for="sujet">Sujet du message</label>
                     </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 l6">
                         <input id="nom" type="text" class="validate">
                         <label for="nom">Votre Nom</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 l6">
                         <input id="mail" type="email" class="validate">
                         <label for="mail">e-mail</label>
                     </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 l6">
                         <input id="tel" type="text" class="validate">
                         <label for="tel">Téléphone (portable de préférence)</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s4">
+                    <div class="input-field col s12 l6">
                         <input id="rue" type="text" class="validate">
                         <label for="rue">Adresse (numéro et rue)</label>
                     </div>
-                    <div class="input-field col s4">
+                    <div class="input-field col s12 l3">
                         <input id="codePostal" type="text" class="validate">
                         <label for="codePostal">Code Postale</label>
                     </div>
-                    <div class="input-field col s4">
+                    <div class="input-field col s12 l3">
                         <input id="pays" type="text" class="validate">
                         <label for="pays">Pays</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 l6">
                         <textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
                         <label for="textarea1">Votre message</label>
                     </div>
-                    <div class="input-field col s6 center-align">
-                        <button class="btn waves-effect waves-light" type="submit">Submit
-                            <i class="material-icons right">send</i> </button>
+                    <div class="input-field col s12 l6 center-align">
+                        <button class="btn waves-effect waves-light" id="boutonContacter" type="submit">Envoyer
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+    </div>
+</div>
+
+<div id="livreOr" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <div class="row">
+            <div class="section">
+                <div class="col s12 center-align">
+                    <h5 class="header modal-title">Livre d'or</h5>
+                    <div class="divider"></div>
+                </div>
+                <div class="col s12">
+                    <br>
+                    <p class="modal-text">
+                        Nous avons beaucoup cru à ce projet et travaillé à son aboutissement (avec le soutien de nos enfants et de nos amis).
+                        Un grand merci à vous pour vos messages de sympathie qui nous touchent particulièrement. <br>
+                        Brigitte et Pascal
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="noms" type="text" class="validate">
+                        <label for="noms">Nom</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">e-mail</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="site" type="text" class="validate">
+                        <label for="site">site</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 l8">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="materialize-textarea" maxlength="500"></textarea>
+                    </div>
+                    <div class="input-field col s12 l4 center-align">
+                        <button class="btn waves-effect waves-light" id="boutonLivreOr" type="submit">Envoyer
+                            <i class="material-icons right">send</i>
+                        </button>
                     </div>
                 </div>
             </form>
