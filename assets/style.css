@@ -125,6 +125,18 @@ div #paralax-section2 {
         flex-flow: column;
         align-items: center;
     }
+
+    #tarif .row {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+    }
+
+    #tarif .row div {
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
 .page-footer {
@@ -209,4 +221,18 @@ blockquote p {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px;
+}
+
+#reservation blockquote {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+#reservation blockquote p {
+    width: 90%;
+}
+
+#reservation blockquote img {
+    width: 20px;
 }
